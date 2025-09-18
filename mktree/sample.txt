@@ -1,0 +1,28 @@
+project_alpha/  # This is the main project folder
+├── assets/  # Static assets like images and styles
+│   ├── images/
+│   │   ├── logo.svg
+│   │   └── hero-banner.jpg
+│   └── styles/
+│       └── main.css  # Main stylesheet
+├── src/  # Source code
+│   ├── components/
+│   │   ├── Button/
+│   │   │   ├── index.js
+│   │   │   └── style.css
+│   │   └── UserProfile.js
+│   ├── api/
+│   │   └── client.js  # API client configuration
+│   └── App.js  # Main application entry point
+├── data/  # Data files, often for testing or seeding
+│   ├── ユーザーリスト.json  # User list in Japanese
+│   └── 订单_2025-09-17.csv  # Orders from today
+├── scripts/
+│   └── deploy.sh*  # Executable deployment script
+├── docs/
+│   └── 🚀_getting_started.md  # Guide with emoji in filename
+├── .env.example  # Example environment variables
+├── package.json
+└── README.md
+
+# This is a script for testing nested folders, unicode name and special characters
